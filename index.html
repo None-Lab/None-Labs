@@ -3,92 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="src/main.js"></script> -->
-
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-
-    <title>None Labs - Main</title>
-
+    <title>Nonelabs</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="Top_TaskBar">
-        <a href="index.html"><h1>None Labs</h1></a>
-        
-        <li id="Top_TaskBar_">
-            <a href="index.html#team">팀 소개</a>
-            <a href="index.html#product">제품</a>
-            <a href="recruiting.html">채용</a>
-            <a href="contact.html">문의</a>
-        </li>
-    </div>
-
-    <div id="product">
-        <h1>제품</h1>
-        <p>새로운 기술, 새로운 제품을 많이 만들려고해요</p>
-
-        <dir class="product_information">
-            <h2 id="product_nametitle">Ecocycling</h2>
-            <p id="product_infotext">
-                Ecocycling은 쓰래기 업사이클링를 하기 위한 플랫폼이에요.
+    <header>
+        <h1 class="wrap"><a href="./index.html">Nonelabs</a></h1>
+    </header>
+    <section class="main section">        
+        <div class="wrap">
+            <h2>
+                everyday convenience,
                 <br>
-                서비스를 사용해보세요!
+                Nonelabs
+                <p>일상의 편리함,NoneLabs</p>
+            </h2>
+        </div>
+    </section>
+    <section class="about section wrap">
+        <h2>About Nonelabs</h2>
+        <div class="aboutNl">
+            <p class="subtitle">새로운 방향을 만들어요!</p>
+            <h2>New Way</h2>
+            <img class="img" src="" alt="">
+            <p class="infotext">세상 속 여러 불편한 점을<br>혁신적인 아이디어로 해결해요!</p>
+        </div>
+        <div class="aboutNl">
+            <p class="subtitle">편리하고 강력한 서비스를 만들어요!</p>
+            <h2>Good Service</h2>
+            <img class="img" src="" alt="">
+            <p class="infotext">편리하고 강력하며 안전한,<br>좋은 서비스를 만들고, 제공해요!</p>
+        </div>
+        <div class="aboutNl" style="border-right: 0;">
+            <p class="subtitle">환경을 생각해요!</p>
+            <h2>Eco Cycling</h2>
+            <img class="img" src="" alt="">
+            <p class="infotext">환경을 보호하고, 사회를 위해 봉사하는,<br>환경과 사회를 위한 착한 기업이 되겠습니다.</p>
+        </div>
+    </section>
+    <section class="last section">
+        <footer class="footer wrap">
+            <img src="./css/img/logo.png" alt="[NL] Nonelabs" width="300px" height="90px">
+            <p>
+                넌랩스 | 제주특별자치도 제주시 설촌로8길 34, 401호(삼양이동, Yg엘리시움) | 대표: 임미르
+                <br>
+                사업자등록번호: 693-17-01866
+                <br>
+                이메일: limmireu@naver.com
+                <br>
+                © 2023. None Labs. All rigth reserved.
             </p>
-            <li><a href="https://ecocycling.none-labs.xyz">자세히 보기</a></li>
-        </dir>
-        <!-- <dir class="product_information">
-            <h2 id="product_nametitle">asdf</h2>
-            <p id="product_infotext">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel vero ex cum saepe alias. Error magni unde quam fugiat minus iure et delectus veritatis. Voluptate quasi iure modi consequuntur.
-            </p>
-            <li><a href="">자세히 보기</a></li>
-        </dir> -->
-        <!-- <dir class="product_information">
-            <h2 id="product_nametitle">Yuna</h2>
-            <p id="product_infotext">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vitae esse iure eaque ad tenetur, praesentium, magni error dolor beatae explicabo consequuntur impedit eius porro reiciendis ullam hic sed distinctio.
-            </p>
-            <li><a href="">자세히 보기</a></li>
-        </dir> -->
-    </div>
-
-    
-    <div class="team">
-        <h1>팀 문화</h1>
-
-        <dir class="team_information">
-            <h2 id="team_nametitle">우리는 새로운 기술을 만들어요</h2>
-            <p id="team_infotext">
-                새로운 서비스에 새로운 기술을 융합하여 서비스를 개발해요.
-                <!-- <br> -->
-            </p>
-        </dir>
-        <dir class="team_information">
-            <h2 id="team_nametitle">우리는 편리하고 강력한 서비스를 만들어요</h2>
-            <p id="team_infotext">
-                일상의 불편함을 혁신과 편리함으로 바꾸기 위해서 강력하고 편리한 서비스를 개발해요.
-                <!-- <br> -->
-            </p>
-        </dir>
-    </div>
-
-
-    <div class="Company_information_at_the_bottom">
-        <img src="./image/Nonelabs_logo.svg" alt="" srcset="">
-        <p>None Labs</p>
-
-        <p>
-            넌랩스 | 제주특별자치도 제주시 설촌로8길 34, 401호(삼양이동, Yg엘리시움) | 대표: 임미르
-            <br>
-            사업자등록번호: 693-17-01866
-            <br>
-            이메일: limmireu@naver.com
-            
-            <br>
-            
-            © None Labs.
-        </p>
-    </div>
-
+        </footer>
+    </section>
+    <script src="./js/script.js"></script>
 </body>
 </html>
